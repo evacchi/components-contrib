@@ -72,7 +72,7 @@ require (
 	github.com/hazelcast/hazelcast-go-client v0.0.0-20190530123621-6cf767c2f31a
 	github.com/http-wasm/http-wasm-host-go v0.3.1
 	github.com/huaweicloud/huaweicloud-sdk-go-obs v3.22.11+incompatible
-	github.com/huaweicloud/huaweicloud-sdk-go-v3 v0.1.23
+	github.com/huaweicloud/huaweicloud-sdk-go-v3 v0.1.26
 	github.com/influxdata/influxdb-client-go v1.4.0
 	github.com/jackc/pgx/v5 v5.3.0
 	github.com/json-iterator/go v1.1.12
@@ -101,7 +101,7 @@ require (
 	github.com/supplyon/gremcos v0.1.39
 	github.com/tencentcloud/tencentcloud-sdk-go/tencentcloud/common v1.0.582
 	github.com/tencentcloud/tencentcloud-sdk-go/tencentcloud/ssm v1.0.582
-	github.com/tetratelabs/wazero v1.0.0-pre.7
+	github.com/tetratelabs/wazero v1.0.0-pre.9
 	github.com/valyala/fasthttp v1.44.0
 	github.com/vmware/vmware-go-kcl v1.5.0
 	github.com/xdg-go/scram v1.1.2
@@ -397,3 +397,5 @@ replace github.com/toolkits/concurrent => github.com/niean/gotools v0.0.0-201512
 
 // this is a fork which addresses a performance issues due to go routines
 replace dubbo.apache.org/dubbo-go/v3 => dubbo.apache.org/dubbo-go/v3 v3.0.3-0.20230118042253-4f159a2b38f3
+
+replace github.com/http-wasm/http-wasm-host-go => /Users/evacchi/Devel/github.com/http-wasm/http-wasm-host-go
